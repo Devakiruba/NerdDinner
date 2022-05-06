@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Nerddiner">
+  <DataContextMoniker Name="/DB" />
+  <nestedChildShapes>
+    <classShape Id="00d874f5-106d-40be-8688-4864bbff8a76" absoluteBounds="0.75, 1, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/DB/Dinner" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4fd32d49-23ac-4260-9680-660f0cf40bbd" absoluteBounds="0.765, 1.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2fedfa29-d193-411f-b103-be0e968d9e63" absoluteBounds="3.5, 1.625, 2, 1.3862939453124998">
+      <DataClassMoniker Name="/DB/RSVP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="782e8b42-7f60-4ed3-bc12-ff157cb1bdaa" absoluteBounds="3.515, 2.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.31814697265625); (3.5 : 2.31814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DB/Dinner/Dinner_RSVP" />
+      <nodes>
+        <classShapeMoniker Id="00d874f5-106d-40be-8688-4864bbff8a76" />
+        <classShapeMoniker Id="2fedfa29-d193-411f-b103-be0e968d9e63" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
